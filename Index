@@ -1,1 +1,35 @@
-# Jim Beck's Academic Website
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Jim Beck's Academic Website</title>
+    </head>
+    <body>
+        <<ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="CV">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="Blog">Blog</a>
+          </li>
+        </ul>
+        <div class="container">
+        <div class="blurb">
+          <<h1>Hello there, I'm Jim Beck</h1>>
+          <<p>I'm a Ph.D Student in Computational Science and Engineering at Boise State University</p>> <a href="/about">Read more about me here.</a>
+        </div><!--/.blurb -->
+        </div><!--/.container -->
+        <<footer>
+          <<ul>
+            <<li><a href="mailto:jimbeck@u.boisestate.edu">email</a></li>
+            <<li><a href="https:github.com/jdbeck66">github.com/jdbeck66</a></li>
+          </ul>
+        </footer>
+    </body>
+</html>
